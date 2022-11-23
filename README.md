@@ -3,18 +3,39 @@ _💡 Note: This Project is in Progress!_
 
 CMJSH Agency is a fictional, digital marketing agency focused on designing, developing, and marketing accessible business solutions in the forms of responsive website interfaces.
 
-For the first iteration, the project’s scope consists of two types of pages: a home landing and profile pages. Our focus is on planning and executing Quality Assurance (QA) tests for our Quality Assurance Term Project. 
+The first iteration consists of consists of two pages: a home landing and profile page. Our focus is on planning and executing Quality Assurance (QA) tests within the project's scope, budget, and timeline. 
 
-_➡ More updates on the way!_
+_**➡ More updates on the way!**_
 
-## ⚒ Tools Used:
-* Design: Figma, InVision
-* Development: ReactJS, TailwindCSS, GulpJS
-* QA Testing: BrowserStack
+## 🚦 **Getting Started**
+After downloading the files to your local device, go to Terminal and run `npm install` to set up the necessary node modules to work on the project. 
 
-## 🧠 Our Team:
-* Cindy Shin, Designer (https://cinshin.com)
-* Hannah Smith, Quality Assurance Tester (https://portfolio/hlsmith.online)
-* Malcolm Tan, Quality Assurance Lead (https://malcolm-tan.com/)
-* Samantha Tan, Developer (https://samanthatan.ca/)
-* Jessica Lee, Developer (https://jessicamlee.dev/)
+### 🎯 **Project Scripts:**
+When working on the project, the following scripts will be used to begin:
+
+* `npm install` — Install the necessary node modules to work on the project.
+
+* `npm run start` — Runs the app in development mode in your browser [http://localhost:3000](http://localhost:300).
+
+* `npm run gulp` — Assembles and watches the JavaScript files affecting the interactions in the project into one primary file (main.js).
+
+* `npm run tailwind` — Assembles and watches the styles defined by the TailwindCSS framework.
+
+### 🧪 **Testing Scripts:**
+When we're ready to build and test the project for issues or bugs, the following scripts will be used to set up: 
+
+* `npm run build` — Build the application for the Staging for Testing, and, later, Production for everyone to use. 
+
+* `npm test` — Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+## ⚒ **Tools & Languages**
+* **Design:** Figma
+* **Development:** React.js, TailwindCSS, Babel, Gulp.js
+* **QA Testing:** BrowserStack
+
+## 🧠 **Our Team**
+* [**Malcolm Tan**](https://malcolm-tan.com/)  —   Quality Assurance Lead
+* [**Cindy Shin**](https://cinshin.com)  —   UX/UI Designer
+* [**Hannah Smith**](https://portfolio/hlsmith.online)  —   Graphic Designer
+* [**Samantha Tan**](https://samanthatan.ca/)  —   Developer
+* [**Jessica Lee**](https://jessicamlee.dev/)  —   Developer
