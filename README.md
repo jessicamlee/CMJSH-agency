@@ -19,7 +19,6 @@ When working on the project, the following scripts will be used to begin:
 
 * `npm run gulp` — Assembles and watches the JavaScript files affecting the interactions in the project into one primary file (main.js).
 
-* `npm run tailwind` — Assembles and watches the styles defined by the TailwindCSS framework.
 
 ### 🧪 **Testing Scripts:**
 When we're ready to build and test the project for issues or bugs, the following scripts will be used to set up: 
