@@ -16,19 +16,13 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "tailwind": "npx tailwindcss -i ./src/css/index.css -o ./dist/css/index.css -- watch",
     "gulp": "gulp"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jessicamlee/CMJSH-agency.git"
   },
   "author": "CMJSH Agency",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jessicamlee/CMJSH-agency/issues"
   },
-  "homepage": "https://github.com/jessicamlee/CMJSH-agency#index.js",
   "eslintConfig": {
     "extends": [
       "react-app",
