@@ -1,9 +1,17 @@
+import React from "react";
+
+import Header from "./components/Header";
+import Hero from "./layout/Hero";
+import Intro from "./layout/Intro";
+
 function App() {
   return (
     <div>
-      <h1 className="text-3xl text-white text-center font-bold underline bg-blue-800 py-8">
-        Hello World!
-      </h1>
+      <Header />
+
+      <Hero />
+
+      <Intro />
     </div>
   );
 }
