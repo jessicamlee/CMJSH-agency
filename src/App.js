@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Hero from "./layout/Hero";
 import Intro from "./layout/Intro";
 import Expertise from "./layout/Expertise";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
@@ -15,8 +16,11 @@ function App() {
 			<Intro />
 
 			<Expertise />
+       <Footer />
 		</div>
 	);
+
+
 }
 
 export default App;
