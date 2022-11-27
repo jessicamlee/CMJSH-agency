@@ -4,13 +4,20 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    screens: {
+      'sm': '640px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1440px'
+    },
     extend: {
 
       colors: {
-        darkBlue: '#07082E',
-        lightBlue: '#4FB1D4',
-        roleDark: '#02045A',
-        roleLight: '#D1EFF7',
+        darkBlue: 'rgba(7, 8, 46, 1)',
+        lightBlue: 'rgba(79, 177, 212, 1)',
+        vlightBlue: 'rgba(162, 222, 237, 0.5)',
+        roleDark: 'rgba(2, 4, 90, 1)',
+        roleLight: 'rgba(209, 239, 247, 1)',
       },
 
       fontFamily: {
