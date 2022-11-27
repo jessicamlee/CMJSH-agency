@@ -31,6 +31,9 @@ module.exports = {
         bold: '700',
       },
       
+      zIndex: {
+        '1':'1',
+      }
     }
   },
   plugins: [],
