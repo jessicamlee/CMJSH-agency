@@ -20,6 +20,7 @@ module.exports = {
         vlightBlue: 'rgba(162, 222, 237, 0.5)',
         roleDark: 'rgba(2, 4, 90, 1)',
         roleLight: 'rgba(209, 239, 247, 1)',
+        darkBg: 'rgba(67,68,96,255)',
       },
 
       fontFamily: {
