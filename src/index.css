@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn-sm {
+    @apply w-fit bg-darkBlue text-white text-xs rounded-full py-3 px-8;
+}
+
+.btn-full {
+    @apply w-full h-9 bg-darkBlue text-white text-xs rounded-full mt-4;
+}
+
+.section-spacing {
+    @apply px-6 mt-44 mb-20;
+}
