@@ -33,4 +33,52 @@ const dataExpertise = [
 	},
 ];
 
-export { dataExpertise };
+const dataTeamMembers = [
+	{
+		id: 1,
+		name: "Cindy Shin",
+		role: "Digital Designer, UXUI Designer",
+		paragraph:
+			"Please write some blurb about yourself and what you do here because I can\'t think of things for people",
+		imagePath: "/assets/images/dp_cindyshin.jpg",
+		imageName: "Profile Picture of Cindy Shin",
+	},
+	{
+		id: 2,
+		name: "Malcolm Tan",
+		role: "Web Developer, QA Lead",
+		paragraph:
+			"Please write some blurb about yourself and what you do here because I can\'t think of things for people",
+		imagePath: "/assets/images/dp_malcolmtan.jpg",
+		imageName: "Profile Picture of Malcolm Tan",
+	},
+	{
+		id: 3,
+		name: "Jessica Lee",
+		role: "Web Developer, React Developer",
+		paragraph:
+			"Please write some blurb about yourself and what you do here because I can\'t think of things for people",
+		imagePath: "/assets/images/dp_jessicalee.jpg",
+		imageName: "Profile Picture of Jessica Lee",
+	},
+	{
+		id: 4,
+		name: "Samantha Tan",
+		role: "Web Developer, React Developer",
+		paragraph:
+			"Please write some blurb about yourself and what you do here because I can\'t think of things for people",
+		imagePath: "/assets/images/dp_samanthatan.jpg",
+		imageName: "Profile Picture of Samantha Tan",
+	},
+	{
+		id: 5,
+		name: "Hannah Smith",
+		role: "Graphic Designer, QA Tester",
+		paragraph:
+			"Please write some blurb about yourself and what you do here because I can\'t think of things for people",
+		imagePath: "/assets/images/dp_hannahsmith.jpg",
+		imageName: "Profile Picture of Hannah Smith",
+	},
+]
+
+export { dataExpertise, dataTeamMembers };
