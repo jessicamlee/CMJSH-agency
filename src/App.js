@@ -5,6 +5,7 @@ import Hero from "./layout/Hero";
 import Intro from "./layout/Intro";
 import Expertise from "./layout/Expertise";
 import MeettheTeam from "./layout/MeettheTeam";
+import Contact from "./layout/Contact";
 import Footer from "./components/Footer";
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
 			<Expertise />
 
 			<MeettheTeam />
+
+			<Contact />
 
        		<Footer />
 		</div>
