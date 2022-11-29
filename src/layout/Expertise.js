@@ -8,9 +8,8 @@ export default function Expertise() {
 				Our Expertise
 			</h2>
 
-			<div className="sm:grid block grid-cols-2 gap-y-6 gap-x-14 max-w-3xl m-auto">
+			<div className="container px-2 md:grid block grid-cols-2 max-w-3xl mx-auto">
 				{dataExpertise.map((item) => {
-					console.log(item);
 					return ExpertiseCard(item);
 				})}
 			</div>
