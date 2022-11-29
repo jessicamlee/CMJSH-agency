@@ -1,3 +1,9 @@
+const videoBg = [
+	{
+		videoPath: '/assets/videos/videoBg.mp4'
+	}
+];
+
 const dataExpertise = [
 	{
 		id: 1,
@@ -81,4 +87,4 @@ const dataTeamMembers = [
 	},
 ]
 
-export { dataExpertise, dataTeamMembers };
+export { videoBg, dataExpertise, dataTeamMembers };
