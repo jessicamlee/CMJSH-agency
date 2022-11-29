@@ -2,7 +2,7 @@ import React from "react";
 
 import Header from "./components/Header";
 import Hero from "./layout/Hero";
-import Intro from "./layout/Intro";
+import WhoAreWe from "./layout/WhoAreWe";
 import Expertise from "./layout/Expertise";
 import MeettheTeam from "./layout/MeettheTeam";
 import Contact from "./layout/Contact";
@@ -15,7 +15,7 @@ function App() {
 
 			<Hero />
 
-			<Intro />
+			<WhoAreWe />
 
 			<Expertise />
 

@@ -9,10 +9,11 @@ module.exports = {
       'lg': '1024px',
       'xl': '1440px'
     },
-    maxWidth: {
-      '22pct': '22%'
-    },
     extend: {
+
+      maxWidth: {
+        '22pct': '22%'
+      },
 
       colors: {
         darkBlue: 'rgba(7, 8, 46, 1)',
