@@ -9,7 +9,7 @@ export default function Contact() {
         <form className='flex flex-col gap-10 mb-12 md:flex-row md:flex-wrap md:px-14 md:gap-x-28 lg:px-0'>
             <input className='border-b pb-3 grow' type='text' placeholder='Your name' required></input>
             <input className='border-b pb-3 grow' type='email' placeholder='Your email' required></input>
-            <textarea className='border-b w-full mt-7' type='text' placeholder='Your Message' reequired></textarea>
+            <textarea className='border-b w-full mt-7' type='text' placeholder='Your Message' required></textarea>
             <button className='bg-darkBlue text-white text-sm rounded-full w-fit flex gap-3 items-center py-1 pl-3 pr-1 mt-6 mx-auto' type='submit'>
                 <span className='pl-3'>Send</span>
                 <img className='bg-white rounded-full h-7 w-7' src='#' alt='arrow'></img>
