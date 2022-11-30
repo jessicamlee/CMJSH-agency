@@ -8,9 +8,8 @@ export default function MeettheTeam() {
 				Meet the Team
 			</h2>
 
-			<ul className="flex flex-wrap gap-x-6 gap-y-10 md:px-16 md:gap-x-12 md:gap-y-14 md:justify-center">
+			<ul className="flex flex-wrap gap-x-6 gap-y-10 justify-center md:px-16 md:gap-x-12 md:gap-y-14">
 				{dataTeamMembers.map((item) => {
-					console.log(item);
 					return TeamMemberCard(item);
 				})}
 			</ul>

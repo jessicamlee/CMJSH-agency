@@ -40,8 +40,15 @@ const dataTeamMembers = [
 		role: "Digital Designer, UXUI Designer",
 		paragraph:
 			"Please write some blurb about yourself and what you do here because I can\'t think of things for people",
+		fullBio: 
+			"Brief bio description about yourself goes here. Talk about maybe your passion/hobbies? What do you do for your job here. Aliquam id arcu a felis placerat volutpat. Vestibulum elit leo, convallis nec lectus nec, consequat laoreet ex. Praesent pulvinar commodo maximus.",
 		imagePath: "/assets/images/dp_cindyshin.jpg",
 		imageName: "Profile Picture of Cindy Shin",
+		projectName: "Project Name",
+		projectDesc:
+			"Aliquam id arcu a felis placerat volutpat. Vestibulum elit leo, convallis nec lectus nec, consequat laoreet ex. Praesent pulvinar commodo maximus.  Aliquam id arcu a felis placerat volutpat.",
+		projectImagePath: "/assets/images/dp_cindyshin.jpg",
+		projectImageName: "Screenshot of Project",
 	},
 	{
 		id: 2,
@@ -49,8 +56,15 @@ const dataTeamMembers = [
 		role: "Web Developer, QA Lead",
 		paragraph:
 			"Please write some blurb about yourself and what you do here because I can\'t think of things for people",
+		fullBio: 
+			"Brief bio description about yourself goes here. Talk about maybe your passion/hobbies? What do you do for your job here. Aliquam id arcu a felis placerat volutpat. Vestibulum elit leo, convallis nec lectus nec, consequat laoreet ex. Praesent pulvinar commodo maximus.",
 		imagePath: "/assets/images/dp_malcolmtan.jpg",
 		imageName: "Profile Picture of Malcolm Tan",
+		projectName: "Project Name",
+		projectDesc:
+			"Aliquam id arcu a felis placerat volutpat. Vestibulum elit leo, convallis nec lectus nec, consequat laoreet ex. Praesent pulvinar commodo maximus.  Aliquam id arcu a felis placerat volutpat.",
+		projectImagePath: "/assets/images/dp_cindyshin.jpg",
+		projectImageName: "Screenshot of Project",
 	},
 	{
 		id: 3,
@@ -58,8 +72,15 @@ const dataTeamMembers = [
 		role: "Web Developer, React Developer",
 		paragraph:
 			"Please write some blurb about yourself and what you do here because I can\'t think of things for people",
+		fullBio: 
+			"Brief bio description about yourself goes here. Talk about maybe your passion/hobbies? What do you do for your job here. Aliquam id arcu a felis placerat volutpat. Vestibulum elit leo, convallis nec lectus nec, consequat laoreet ex. Praesent pulvinar commodo maximus.",
 		imagePath: "/assets/images/dp_jessicalee.jpg",
 		imageName: "Profile Picture of Jessica Lee",
+		projectName: "Project Name",
+		projectDesc:
+			"Aliquam id arcu a felis placerat volutpat. Vestibulum elit leo, convallis nec lectus nec, consequat laoreet ex. Praesent pulvinar commodo maximus.  Aliquam id arcu a felis placerat volutpat.",
+		projectImagePath: "/assets/images/dp_cindyshin.jpg",
+		projectImageName: "Screenshot of Project",
 	},
 	{
 		id: 4,
@@ -67,8 +88,15 @@ const dataTeamMembers = [
 		role: "Web Developer, React Developer",
 		paragraph:
 			"Please write some blurb about yourself and what you do here because I can\'t think of things for people",
+		fullBio: 
+			"Brief bio description about yourself goes here. Talk about maybe your passion/hobbies? What do you do for your job here. Aliquam id arcu a felis placerat volutpat. Vestibulum elit leo, convallis nec lectus nec, consequat laoreet ex. Praesent pulvinar commodo maximus.",
 		imagePath: "/assets/images/dp_samanthatan.jpg",
 		imageName: "Profile Picture of Samantha Tan",
+		projectName: "Project Name",
+		projectDesc:
+			"Aliquam id arcu a felis placerat volutpat. Vestibulum elit leo, convallis nec lectus nec, consequat laoreet ex. Praesent pulvinar commodo maximus.  Aliquam id arcu a felis placerat volutpat.",
+		projectImagePath: "/assets/images/dp_cindyshin.jpg",
+		projectImageName: "Screenshot of Project",
 	},
 	{
 		id: 5,
@@ -76,8 +104,15 @@ const dataTeamMembers = [
 		role: "Graphic Designer, QA Tester",
 		paragraph:
 			"Please write some blurb about yourself and what you do here because I can\'t think of things for people",
+		fullBio: 
+			"Brief bio description about yourself goes here. Talk about maybe your passion/hobbies? What do you do for your job here. Aliquam id arcu a felis placerat volutpat. Vestibulum elit leo, convallis nec lectus nec, consequat laoreet ex. Praesent pulvinar commodo maximus.",
 		imagePath: "/assets/images/dp_hannahsmith.jpg",
 		imageName: "Profile Picture of Hannah Smith",
+		projectName: "Project Name",
+		projectDesc:
+			"Aliquam id arcu a felis placerat volutpat. Vestibulum elit leo, convallis nec lectus nec, consequat laoreet ex. Praesent pulvinar commodo maximus.  Aliquam id arcu a felis placerat volutpat.",
+		projectImagePath: "/assets/images/dp_cindyshin.jpg",
+		projectImageName: "Screenshot of Project",
 	},
 ]
 

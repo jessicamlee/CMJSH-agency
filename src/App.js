@@ -1,30 +1,22 @@
-import React from "react";
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from "./components/Header";
-import Hero from "./layout/Hero";
-import Intro from "./layout/Intro";
-import Expertise from "./layout/Expertise";
-import MeettheTeam from "./layout/MeettheTeam";
 import Footer from "./components/Footer";
+import HomePage from './pages/HomePage';
+import ProfilePage from './pages/ProfilePage';
 
 function App() {
 	return (
-		<div>
+		<>
 			<Header />
-
-			<Hero />
-
-			<Intro />
-
-			<Expertise />
-
-			<MeettheTeam />
-
-       		<Footer />
-		</div>
+			<Router>
+				<Routes>
+					<Route exact path="/" element={<HomePage />} />
+					<Route exact path="/ProfilePage" element={<ProfilePage />} />
+				</Routes>
+			</Router>
+			<Footer />
+		</>
 	);
-
-
 }
 
 export default App;

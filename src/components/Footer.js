@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
     return (
-        <footer className='bg-roleDark p-5 lg:px-20'>
+        <footer className='bg-roleDark p-5 lg:px-20 relative'>
             <div className='pb-6 pt-12 flex justify-between items-center relative'>
                 <div className='cmjsh-logo'>
                     <svg className='w-28 h-8 fill-none' viewBox="0 0 114 32" xmlns="http://www.w3.org/2000/svg">
