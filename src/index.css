@@ -18,3 +18,18 @@
     @apply px-6 mt-44 mb-20;
 }
 
+.btn-profiles {
+    @apply w-fit bg-darkBlue text-white dark:bg-lightBlue dark:text-darkBlue text-xs rounded-full py-2 px-7 mt-4 mb-10;
+}
+
+.img-profiles {
+    @apply rounded w-full pb-4 md:pb-0;
+}
+
+.para-profiles {
+    @apply text-darkBlue text-xs font-light leading-5 md:text-sm xl:font-regular dark:text-white;
+}
+
+button.group {
+    @apply absolute bottom-50- mb-12 lg:top-0 w-52 text-5xl font-regular text-darkBlue dark:text-white;
+}
