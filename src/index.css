@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+#root {
+    overflow-x: hidden;
+}
+
 .btn-sm {
     @apply w-fit bg-darkBlue text-white text-xs rounded-full py-3 px-8;
 }
@@ -13,3 +17,4 @@
 .section-spacing {
     @apply px-6 mt-44 mb-20;
 }
+
