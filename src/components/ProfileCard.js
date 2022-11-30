@@ -19,10 +19,10 @@ export default function ProfileCard({
 }) {
 
     return (
-        <div key={id} className="grid grid-cols-1 gap-y-10 md:pt-9 md:pb-11 md:px-23">
+        <div key={id} className="grid grid-cols-1 gap-y-10 gap-x-4 md:px-10">
             <div className="grid grid-cols-1 md:grid-cols-2 md:gap-x-10">
                 <img className="img-profiles" src={imagePath} alt={imageName} />
-                <div>
+                <div className="h-fit">
                     <h2 className="text-4xl text-left text-darkBlue font-bold border-b-4 w-fit border-lightBlue dark:text-white">{name}</h2>
                     <p className="para-profiles mt-4">{fullBio}</p>
                     <ul className="flex gap-x-6 mt-4">

@@ -42,15 +42,25 @@ module.exports = {
         '28pct': '28%',
         '47pct': '47%',
       },
-      
-      zIndex: {
-        '1':'1',
+
+      height: {
+        '140': '35rem',
+        '176': '44rem',
+        '232': '58rem',
+        '240': '60rem',
+        '292': '73rem',
       },
 
       spacing: {
-        '23':'92px',
+        '50-': '-50px'
+      },
+      
+      zIndex: {
+        '1': '1',
       },
     }
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }

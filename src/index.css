@@ -25,3 +25,7 @@
 .para-profiles {
     @apply text-darkBlue text-xs font-light leading-5 md:text-sm xl:font-regular dark:text-white;
 }
+
+button.group {
+    @apply absolute bottom-50- mb-12 lg:top-0 w-52 text-5xl font-regular text-darkBlue dark:text-white;
+}
