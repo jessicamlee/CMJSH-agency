@@ -1,5 +1,5 @@
 import Hero from "../layout/Hero";
-import Intro from "../layout/Intro";
+import WhoAreWe from "../layout/WhoAreWe";
 import Expertise from "../layout/Expertise";
 import MeettheTeam from "../layout/MeettheTeam";
 
@@ -8,7 +8,7 @@ export default function HomePage() {
 		<main>
 			<Hero />
 
-			<Intro />
+			<WhoAreWe />
 
 			<Expertise />
 
