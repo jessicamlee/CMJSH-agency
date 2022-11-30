@@ -47,7 +47,7 @@ const dataTeamMembers = [
 		projectName: "Project Name",
 		projectDesc:
 			"Aliquam id arcu a felis placerat volutpat. Vestibulum elit leo, convallis nec lectus nec, consequat laoreet ex. Praesent pulvinar commodo maximus.  Aliquam id arcu a felis placerat volutpat.",
-		projectImagePath: "/assets/images/dp_cindyshin.jpg",
+		projectImagePath: "/assets/images/screenshot.jpg",
 		projectImageName: "Screenshot of Project",
 		portfolioSite: "https://cinshin.com/",
 		portfolioName: "Visit Cindy's Portfolio",
@@ -71,7 +71,7 @@ const dataTeamMembers = [
 		projectName: "Project Name",
 		projectDesc:
 			"Aliquam id arcu a felis placerat volutpat. Vestibulum elit leo, convallis nec lectus nec, consequat laoreet ex. Praesent pulvinar commodo maximus.  Aliquam id arcu a felis placerat volutpat.",
-		projectImagePath: "/assets/images/dp_cindyshin.jpg",
+		projectImagePath: "/assets/images/screenshot.jpg",
 		projectImageName: "Screenshot of Project",
 		portfolioSite: "https://malcolm-tan.com/",
 		portfolioName: "Visit Malcolm's Portfolio",
@@ -95,7 +95,7 @@ const dataTeamMembers = [
 		projectName: "Project Name",
 		projectDesc:
 			"Aliquam id arcu a felis placerat volutpat. Vestibulum elit leo, convallis nec lectus nec, consequat laoreet ex. Praesent pulvinar commodo maximus.  Aliquam id arcu a felis placerat volutpat.",
-		projectImagePath: "/assets/images/dp_cindyshin.jpg",
+		projectImagePath: "/assets/images/screenshot.jpg",
 		projectImageName: "Screenshot of Project",
 		portfolioSite: "https://jessicamlee.dev/",
 		portfolioName: "Visit Jessica's Portfolio",
@@ -119,7 +119,7 @@ const dataTeamMembers = [
 		projectName: "Project Name",
 		projectDesc:
 			"Aliquam id arcu a felis placerat volutpat. Vestibulum elit leo, convallis nec lectus nec, consequat laoreet ex. Praesent pulvinar commodo maximus.  Aliquam id arcu a felis placerat volutpat.",
-		projectImagePath: "/assets/images/dp_cindyshin.jpg",
+		projectImagePath: "/assets/images/screenshot.jpg",
 		projectImageName: "Screenshot of Project",
 		portfolioSite: "https://samanthatan.ca/",
 		portfolioName: "Visit Samantha's Portfolio",
@@ -143,7 +143,7 @@ const dataTeamMembers = [
 		projectName: "Project Name",
 		projectDesc:
 			"Aliquam id arcu a felis placerat volutpat. Vestibulum elit leo, convallis nec lectus nec, consequat laoreet ex. Praesent pulvinar commodo maximus.  Aliquam id arcu a felis placerat volutpat.",
-		projectImagePath: "/assets/images/dp_cindyshin.jpg",
+		projectImagePath: "/assets/images/screenshot.jpg",
 		projectImageName: "Screenshot of Project",
 		portfolioSite: "https://portfolio/hlsmith.online",
 		portfolioName: "Visit Hannah's Portfolio",

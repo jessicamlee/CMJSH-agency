@@ -45,7 +45,11 @@ module.exports = {
       
       zIndex: {
         '1':'1',
-      }
+      },
+
+      spacing: {
+        '23':'92px',
+      },
     }
   },
   plugins: [],
