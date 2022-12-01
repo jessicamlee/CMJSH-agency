@@ -41,3 +41,11 @@ button.group {
 .navbar.active {
     @apply bg-darkBlue;
 }
+
+.hideNav {
+    @apply hidden;
+}
+
+.showNav {
+    @apply block absolute w-full h-screen top-0 left-0 bg-darkBlue z-1;
+}
