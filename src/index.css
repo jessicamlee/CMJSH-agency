@@ -33,3 +33,11 @@
 button.group {
     @apply absolute bottom-50- mb-12 lg:top-0 w-52 text-5xl font-regular text-darkBlue dark:text-white;
 }
+
+.navbar {
+    @apply fixed top-0 left-0 right-0 px-5 py-9 flex justify-between items-center bg-inherit;
+}
+
+.navbar.active {
+    @apply bg-darkBlue;
+}
