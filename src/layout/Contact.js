@@ -7,9 +7,9 @@ export default function Contact() {
         <p className='font-light mb-1 text-sm'>We're always glad to help</p>
         <h2 className="text-4xl text-darkBlue font-bold border-b-4 w-fit border-lightBlue mb-20 lg:mb-28">Contact Us</h2>
         <form className='flex flex-col gap-10 mb-12 md:flex-row md:flex-wrap md:px-14 md:gap-x-28 lg:px-0'>
-            <input className='border-b pb-3 grow' type='text' placeholder='Your name' required></input>
-            <input className='border-b pb-3 grow' type='email' placeholder='Your email' required></input>
-            <textarea className='border-b w-full mt-7' type='text' placeholder='Your Message' required></textarea>
+            <input className='border-b pb-3 grow border-0 border-inherit' type='text' placeholder='Your name' required></input>
+            <input className='border-b pb-3 grow border-0 border-inherit' type='email' placeholder='Your email' required></input>
+            <textarea className='border-b w-full mt-7 border-0 border-inherit' type='text' placeholder='Your Message' required></textarea>
             <button className='bg-darkBlue text-white text-sm rounded-full w-fit flex gap-3 items-center py-1 pl-3 pr-1 mt-6 mx-auto' type='submit'>
                 <span className='pl-3'>Send</span>
                 <img className='bg-white rounded-full h-7 w-7' src='/assets/images/sendarrow.svg' alt='arrow'></img>
