@@ -6,9 +6,7 @@ const babel = require('gulp-babel');
 
 function build_js() {
     return src([
-            './src/js/jquery-min.js', 
             './src/js/aos.js', 
-            './src/js/scroll-lock.js', 
             './src/js/main.js',])
         .pipe(sourcemaps.init())
         .pipe(terser())
