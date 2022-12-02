@@ -15,21 +15,21 @@ When working on the project, the following scripts will be used to begin:
 
 * `npm install` — Install the necessary node modules to work on the project.
 
-* `npm run start` — Runs the app in development mode in your browser [http://localhost:3000](http://localhost:300).
+* `npm start` — Runs the app in development mode in your browser [http://localhost:3000](http://localhost:300).
 
-* `npm run gulp` — Assembles and watches the JavaScript files affecting the interactions in the project into one primary file (main.js).
+* `gulp` — Assembles and watches the JavaScript files affecting the interactions in the project into one primary file (main.js).
 
 
 ### 🧪 **Testing Scripts:**
 When we're ready to build and test the project for issues or bugs, the following scripts will be used to set up: 
 
-* `npm run build` — Build the application for the Staging for Testing, and, later, Production for everyone to use. 
+* `npm build` — Build the application for the Staging for Testing, and, later, Production for everyone to use. 
 
 * `npm test` — Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ## ⚒ **Tools & Languages**
 * **Design:** Figma
-* **Development:** React.js, TailwindCSS, Babel, Gulp.js
+* **Development:** React.js, TailwindCSS, Flowbite, Babel, Gulp.js
 * **QA Testing:** BrowserStack
 
 ## 🧠 **Our Team**
