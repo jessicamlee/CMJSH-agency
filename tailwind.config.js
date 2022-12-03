@@ -13,11 +13,16 @@ module.exports = {
       'lg': '1024px',
       'xl': '1440px'
     },
-    extend: {
 
-      maxWidth: {
-        '22pct': '22%'
-      },
+    minHeight: {
+      'justBody': 'calc(100vh - 350px)',
+    },
+
+    maxWidth: {
+      '22pct': '22%'
+    },
+
+    extend: {
 
       colors: {
         darkBlue: 'rgba(7, 8, 46, 1)',

@@ -10,7 +10,7 @@ export default function Profiles() {
     return (
         <>
             <HeaderPlain />
-            <main className="mt-48">
+            <main className="mt-48 mb-8 min-h-justBody">
                 <div className="flex justify-center items-center flex-col relative">
                     <h1 className="text-4xl md:text-5xl text-darkBlue font-bold border-b-4 w-fit border-lightBlue md:mx-auto dark:text-white">
                         Meet the Team
