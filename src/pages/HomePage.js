@@ -1,3 +1,5 @@
+import HeaderVideo from "../components/HeaderVideo";
+import Footer from "../components/Footer";
 import Hero from "../layout/Hero";
 import WhoAreWe from "../layout/WhoAreWe";
 import Expertise from "../layout/Expertise";
@@ -6,16 +8,20 @@ import Contact from "../layout/Contact";
 
 export default function HomePage() {
 	return (
-		<main>
-			<Hero />
+		<>
+			<HeaderVideo />
+			<main>
+				<Hero />
 
-			<WhoAreWe />
+				<WhoAreWe />
 
-			<Expertise />
+				<Expertise />
 
-			<MeettheTeam />
+				<MeettheTeam />
 
-			<Contact />
-		</main>
+				<Contact />
+			</main>
+			<Footer />
+		</>
 	);
 }
