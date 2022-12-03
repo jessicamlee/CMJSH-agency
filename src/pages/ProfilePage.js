@@ -16,7 +16,7 @@ export default function Profiles() {
                         Meet the Team
                     </h1>
 
-                    <div className="h-240 sm:h-292 md:h-140 lg:h-176 xl:h-232 px-8 container max-w-screen-xl mx-auto mb-1.5">
+                    <div className="h-232 457wide:h-240 sm:h-292 md:h-128 px-8 container max-w-screen-xs md:max-w-screen-md mx-auto mt-8 md:mt-9 mb-10 md:mb-9">
                         <Carousel 
                             slide={false}
                             indicators={false}

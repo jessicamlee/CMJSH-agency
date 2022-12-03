@@ -7,6 +7,7 @@ module.exports = {
   darkMode: 'class',
   theme: {
     screens: {
+      '457wide': '457px',
       'sm': '640px',
       'md': '768px',
       'lg': '1024px',
@@ -45,10 +46,10 @@ module.exports = {
       },
 
       height: {
-        '140': '35rem',
-        '176': '44rem',
+        '128': '32rem',
+        '200': '50rem',
         '232': '58rem',
-        '240': '60rem',
+        '240': '66rem',
         '292': '73rem',
       },
 
