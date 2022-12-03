@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function Header() {
+export default function HeaderVideo() {
 
   const [navbar, setNavbar] = useState(false);
 
@@ -35,7 +35,7 @@ export default function Header() {
               onClick={() => setIsNavOpen(false)}
             >
               <svg
-                  className="h-8 w-8 text-gray-600 fill-none"
+                  className="h-8 w-8 text-white fill-none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
                   strokeWidth="2"
@@ -46,7 +46,7 @@ export default function Header() {
                   <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
             </div>
-            <ul className='flex flex-col items-center justify-start min-h-full gap-10 pt-36 font-light text-base text-white'>
+            <ul className='nav-items-mobile'>
               <li><a href='/' title='Home'>Home</a></li>
               <li><a href='/' title='About Us'>About</a></li>
               <li><a href='/' title='Our Work'>Work</a></li>
@@ -56,7 +56,7 @@ export default function Header() {
         </div>
 
         {/* Desktop Menu */}
-        <ul className='gap-x-10 font-light text-white hidden lg:flex xl:text-base'>
+        <ul className='nav-items-desktop'>
           <li><a href='/' title='Home'>Home</a></li>
           <li><a href='/' title='About Us'>About</a></li>
           <li><a href='/' title='Our Work'>Work</a></li>

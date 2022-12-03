@@ -49,3 +49,11 @@ button.group {
 .showNav {
     @apply block absolute w-full h-screen top-0 left-0 bg-darkBlue z-1;
 }
+
+.nav-items-mobile {
+    @apply flex flex-col items-center justify-start gap-10 pt-36 font-normal text-lg text-white;
+}
+
+.nav-items-desktop {
+    @apply gap-x-10 font-normal text-white hidden lg:flex lg:text-lg xl:text-xl;
+}
