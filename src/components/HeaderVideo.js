@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Fade from 'react-reveal/Fade';
+import BurgerMenu from '../assets/images/burger.svg';
 
 export default function HeaderVideo() {
 	const [navbar, setNavbar] = useState(false);
@@ -29,7 +30,7 @@ export default function HeaderVideo() {
             <img 
               className='h-10 w-10' 
               onClick={() => setIsNavOpen((prev) => !prev)}
-              src='assets/images/burger.svg' 
+              src={BurgerMenu} 
               alt='menu'
             ></img>
           </Fade>
