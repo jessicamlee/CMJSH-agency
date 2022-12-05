@@ -3,7 +3,7 @@ import { dataTeamMembers } from "../constants";
 
 export default function MeettheTeam() {
 	return (
-		<div className="grid gap-16 section-spacing">
+		<div className="grid gap-16 section-spacing mx-auto max-w-screen-xl">
 			<h2 className="text-4xl text-darkBlue font-bold border-b-4 w-fit border-lightBlue md:mx-auto dark:text-white">
 				Meet the Team
 			</h2>
