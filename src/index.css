@@ -2,62 +2,68 @@
 @tailwind components;
 @tailwind utilities;
 
-#root {
-    @apply overflow-x-hidden font-Overpass;
+@layer base {
+    #root {
+        @apply overflow-x-hidden font-Overpass;
+    }
+
+    main {
+        @apply bg-no-repeat bg-cover;
+    }
 }
 
-main {
-    @apply bg-no-repeat bg-cover;
+@layer components {
+    .navbar {
+        @apply fixed top-0 left-0 right-0 p-6 lg:px-10 xl:px-20 flex justify-between items-center bg-inherit;
+    }
+    
+    .navbar.active {
+        @apply bg-darkBlue;
+    }
+
+    .btn-sm {
+        @apply w-fit bg-darkBlue text-white text-xs rounded-full py-3 px-8;
+    }
+    
+    .btn-full {
+        @apply w-full h-9 bg-darkBlue text-white text-xs rounded-full mt-4;
+    }
+
+    .btn-profiles {
+        @apply w-fit bg-darkBlue text-white dark:bg-lightBlue dark:text-darkBlue text-xs rounded-full py-2 px-7 mt-4 mb-10;
+    }
+
+    .img-profiles {
+        @apply rounded w-full pb-4 md:pb-0;
+    }
+
+    .para-profiles {
+        @apply text-darkBlue text-xs font-light leading-5 md:text-sm xl:font-regular dark:text-white;
+    }
+
+    button.group {
+        @apply absolute bottom-50- mb-12 lg:top-0 w-52 text-5xl font-regular text-darkBlue dark:text-white;
+    }
 }
 
-.btn-sm {
-    @apply w-fit bg-darkBlue text-white text-xs rounded-full py-3 px-8;
-}
+@layer utilities {
+    .hideNav {
+        @apply hidden;
+    }
+    
+    .showNav {
+        @apply block absolute w-full h-screen top-0 left-0 bg-darkBlue z-1;
+    }
+    
+    .nav-items-mobile {
+        @apply flex flex-col items-center justify-start gap-10 pt-36 font-normal text-lg text-white;
+    }
+    
+    .nav-items-desktop {
+        @apply gap-x-10 font-normal text-white hidden lg:flex;
+    }
 
-.btn-full {
-    @apply w-full h-9 bg-darkBlue text-white text-xs rounded-full mt-4;
-}
-
-.section-spacing {
-    @apply px-6 mt-28 mb-20;
-}
-
-.btn-profiles {
-    @apply w-fit bg-darkBlue text-white dark:bg-lightBlue dark:text-darkBlue text-xs rounded-full py-2 px-7 mt-4 mb-10;
-}
-
-.img-profiles {
-    @apply rounded w-full pb-4 md:pb-0;
-}
-
-.para-profiles {
-    @apply text-darkBlue text-xs font-light leading-5 md:text-sm xl:font-regular dark:text-white;
-}
-
-button.group {
-    @apply absolute bottom-50- mb-12 lg:top-0 w-52 text-5xl font-regular text-darkBlue dark:text-white;
-}
-
-.navbar {
-    @apply fixed top-0 left-0 right-0 p-6 lg:px-10 xl:px-20 flex justify-between items-center bg-inherit;
-}
-
-.navbar.active {
-    @apply bg-darkBlue;
-}
-
-.hideNav {
-    @apply hidden;
-}
-
-.showNav {
-    @apply block absolute w-full h-screen top-0 left-0 bg-darkBlue z-1;
-}
-
-.nav-items-mobile {
-    @apply flex flex-col items-center justify-start gap-10 pt-36 font-normal text-lg text-white;
-}
-
-.nav-items-desktop {
-    @apply gap-x-10 font-normal text-white hidden lg:flex;
+    .section-spacing {
+        @apply px-6 mt-28 mb-20;
+    }
 }
