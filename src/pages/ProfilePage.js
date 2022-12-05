@@ -1,14 +1,14 @@
 import HeaderPlain from "../components/HeaderPlain";
 import ProfileCard from "../components/ProfileCard";
 import Footer from "../components/Footer";
-import Fade from 'react-reveal/Fade';
 import { Carousel } from "flowbite-react";
 import { dataTeamMembers } from "../constants";
 
+export default function ProfilePage() {
     return (
         <>
             <HeaderPlain />
-            <main className="mt-48 mb-8 min-h-justBody bg-light-768profile md:bg-light-1024profile lg:bg-light-1440profile dark:bg-dark-768profile dark:md:bg-dark-1024profile dark:lg:bg-dark-1440profile bg-bottom">
+            <main className="mt-48 pb-8 min-h-justBody bg-light-768profile md:bg-light-1024profile lg:bg-light-1440profile dark:bg-dark-768profile dark:md:bg-dark-1024profile dark:lg:bg-dark-1440profile bg-bottom">
                 <div className="flex justify-center items-center flex-col relative">
                     <h1 className="text-4xl md:text-5xl text-darkBlue font-bold border-b-4 w-fit border-lightBlue md:mx-auto dark:text-white">
                         Meet the Team

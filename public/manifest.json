@@ -1,25 +1,15 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "CMJSH Agency",
+  "name": "CMJSH Agency | Design, Discover, Develop",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "assets/images/CMJSH_logo.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "rgba(7,8,46,1)",
+  "background_color": "rgba(255,255,255,1)"
 }
