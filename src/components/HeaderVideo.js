@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Fade from 'react-reveal/Fade';
 
 export default function HeaderVideo() {
 
@@ -19,16 +20,20 @@ export default function HeaderVideo() {
   return (
     <header className='relative text-white p-6 top-0 z-1 -mt-24'>
       <nav className={navbar ? 'navbar active' : 'navbar'}>
-        <h2 className='font-Overpass font-bold text-xl mt-1 lg:text-2xl xl:text-3xl'><a href="/" title="Go to Home page">CMJSH</a></h2>
+        <Fade top>
+          <h2 className='font-Overpass font-bold text-xl mt-1 lg:text-2xl xl:text-3xl'><a href="/" title="Go to Home page">CMJSH</a></h2>
+        </Fade>
 
         {/* Mobile Menu */}
         <div className="flex lg:hidden">
-          <img 
-            className='h-10 w-10' 
-            onClick={() => setIsNavOpen((prev) => !prev)}
-            src='assets/images/burger.svg' 
-            alt='menu'
-          ></img>
+          <Fade top>
+            <img 
+              className='h-10 w-10' 
+              onClick={() => setIsNavOpen((prev) => !prev)}
+              src='assets/images/burger.svg' 
+              alt='menu'
+            ></img>
+          </Fade>
           <div className={isNavOpen ? "showNav" : "hideNav"}>
             <div 
               className="absolute top-0 right-0 p-8"
@@ -46,22 +51,27 @@ export default function HeaderVideo() {
                   <line x1="6" y1="6" x2="18" y2="18" />
               </svg>
             </div>
-            <ul className='nav-items-mobile'>
-              <li><a href='/' title='Home'>Home</a></li>
-              <li><a href='/' title='About Us'>About</a></li>
-              <li><a href='/' title='Our Work'>Work</a></li>
-              <li><a href='/' title='Contact Us'>Contact</a></li>
-            </ul>
+            <Fade cascade>
+              <ul className='nav-items-mobile'>
+                <li><a href='/' title='Home'>Home</a></li>
+                <li><a href='/' title='About Us'>About</a></li>
+                <li><a href='/' title='Our Work'>Work</a></li>
+                <li><a href='/' title='Contact Us'>Contact</a></li>
+              </ul>
+            </Fade>
           </div>
         </div>
 
+
         {/* Desktop Menu */}
-        <ul className='nav-items-desktop'>
-          <li><a href='/' title='Home'>Home</a></li>
-          <li><a href='/' title='About Us'>About</a></li>
-          <li><a href='/' title='Our Work'>Work</a></li>
-          <li><a href='/' title='Contact Us'>Contact</a></li>
-        </ul>
+        <Fade top cascade>
+          <ul className='nav-items-desktop'>
+            <li><a href='/' title='Home'>Home</a></li>
+            <li><a href='/' title='About Us'>About</a></li>
+            <li><a href='/' title='Our Work'>Work</a></li>
+            <li><a href='/' title='Contact Us'>Contact</a></li>
+          </ul>
+        </Fade>
       </nav>
     </header>
   )
