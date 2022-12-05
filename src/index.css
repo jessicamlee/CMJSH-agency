@@ -39,7 +39,7 @@ button.group {
 }
 
 .navbar {
-    @apply fixed top-0 left-0 right-0 px-5 py-9 flex justify-between items-center bg-inherit;
+    @apply fixed top-0 left-0 right-0 p-6 lg:px-10 xl:px-20 flex justify-between items-center bg-inherit;
 }
 
 .navbar.active {
