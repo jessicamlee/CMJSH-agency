@@ -11,14 +11,15 @@ export default function HomePage() {
 		<>
 			<HeaderVideo />
 			<main>
-				<Hero />
+				<div className="bg-light-768home md:bg-light-1024home lg:bg-light-1440home bg-bottom bg-no-repeat bg-cover pb-8">
+					<Hero />
 
-				<WhoAreWe />
+					<WhoAreWe />
 
-				<Expertise />
+					<Expertise />
 
-				<MeettheTeam />
-
+					<MeettheTeam />
+				</div>
 				<Contact />
 			</main>
 			<Footer />
