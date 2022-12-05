@@ -3,7 +3,7 @@ import { dataExpertise } from "../constants";
 
 export default function Expertise() {
 	return (
-		<div className="grid grid-cols-1 gap-16 w-md px-8 md:px-14 lg:px-14 mx-auto max-w-screen-xl">
+		<div className="grid grid-cols-1 gap-16 w-md px-6 lg:px-10 mx-auto max-w-screen-xl">
 			<h2 className="text-4xl text-darkBlue font-bold border-b-4 w-fit border-lightBlue">
 				Our Expertise
 			</h2>
