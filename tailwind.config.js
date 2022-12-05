@@ -16,6 +16,18 @@ module.exports = {
 
     extend: {
 
+      backgroundImage: {
+        'light-768home': "url('../public/assets/images/bg/homepage/768HomePageGradient.png')",
+        'light-1024home': "url('../public/assets/images/bg/homepage/1024HomePageGradient.png')",
+        'light-1440home': "url('../public/assets/images/bg/homepage/1440HomePageGradient.png')",
+        'light-768profile': "url('../public/assets/images/bg/profilepage/768ProfileLight.png')",
+        'light-1024profile': "url('../public/assets/images/bg/profilepage/1024ProfileLight.png')",
+        'light-1440profile': "url('../public/assets/images/bg/profilepage/1440ProfileLight.png')",
+        'dark-768profile': "url('../public/assets/images/bg/profilepage/768ProfileDark.png')",
+        'dark-1024profile': "url('../public/assets/images/bg/profilepage/1024ProfileDark.png')",
+        'dark-1440profile': "url('../public/assets/images/bg/profilepage/1440ProfileDark.png')",
+      },
+
       colors: {
         darkBlue: 'rgba(7, 8, 46, 1)',
         lightBlue: 'rgba(79, 177, 212, 1)',
