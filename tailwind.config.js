@@ -14,14 +14,6 @@ module.exports = {
       'xl': '1440px'
     },
 
-    minHeight: {
-      'justBody': 'calc(100vh - 350px)',
-    },
-
-    maxWidth: {
-      '22pct': '22%'
-    },
-
     extend: {
 
       colors: {
@@ -49,6 +41,10 @@ module.exports = {
         '28pct': '28%',
         '47pct': '47%',
       },
+  
+      maxWidth: {
+        '22pct': '22%'
+      },
 
       height: {
         '128': '32rem',
@@ -56,6 +52,10 @@ module.exports = {
         '232': '58rem',
         '240': '66rem',
         '292': '73rem',
+      },
+
+      minHeight: {
+        'justBody': 'calc(100vh - 350px)',
       },
 
       spacing: {
