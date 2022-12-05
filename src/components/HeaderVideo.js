@@ -17,7 +17,7 @@ export default function HeaderVideo() {
   const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
-    <header className='relative text-white p-6 top-0 z-1 -mt-24 lg:px-10'>
+    <header className='relative text-white p-6 top-0 z-1 -mt-24'>
       <nav className={navbar ? 'navbar active' : 'navbar'}>
         <h2 className='font-Overpass font-bold text-xl mt-1 lg:text-2xl xl:text-3xl'><a href="/" title="Go to Home page">CMJSH</a></h2>
 

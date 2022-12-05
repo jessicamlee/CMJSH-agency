@@ -6,7 +6,7 @@ export default function HeaderPlain() {
 
   return (
     <header className='relative text-white p-6 top-0 z-1 -mt-24 lg:px-10'>
-      <nav className='fixed bg-darkBlue top-0 left-0 right-0 px-5 py-9 flex justify-between items-center'>
+      <nav className='fixed bg-darkBlue top-0 left-0 right-0 p-6 lg:px-10 xl:px-20 flex justify-between items-center'>
         <h2 className='font-Overpass font-bold text-xl mt-1 lg:text-2xl xl:text-3xl'><a href="/" title="Go to Home page">CMJSH</a></h2>
 
         {/* Mobile Menu */}
