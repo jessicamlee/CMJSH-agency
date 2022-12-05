@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 #root {
-    overflow-x: hidden;
+    @apply overflow-x-hidden font-Overpass;
 }
 
 .btn-sm {
@@ -15,7 +15,7 @@
 }
 
 .section-spacing {
-    @apply px-6 mt-44 mb-20;
+    @apply px-6 mt-28 mb-20;
 }
 
 .btn-profiles {
@@ -55,5 +55,5 @@ button.group {
 }
 
 .nav-items-desktop {
-    @apply gap-x-10 font-normal text-white hidden lg:flex lg:text-lg xl:text-xl;
+    @apply gap-x-10 font-normal text-white hidden lg:flex;
 }
