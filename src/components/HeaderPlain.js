@@ -2,8 +2,7 @@ import { useState } from "react";
 import Fade from 'react-reveal/Fade';
 
 export default function HeaderPlain() {
-
-  const [isNavOpen, setIsNavOpen] = useState(false);
+	const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
     <header className='relative text-white p-6 top-0 z-1 -mt-24 lg:px-10'>

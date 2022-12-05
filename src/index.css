@@ -6,6 +6,10 @@
     @apply overflow-x-hidden font-Overpass;
 }
 
+main {
+    @apply bg-no-repeat bg-cover;
+}
+
 .btn-sm {
     @apply w-fit bg-darkBlue text-white text-xs rounded-full py-3 px-8;
 }

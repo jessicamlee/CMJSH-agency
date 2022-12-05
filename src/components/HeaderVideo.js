@@ -2,20 +2,19 @@ import { useState } from "react";
 import Fade from 'react-reveal/Fade';
 
 export default function HeaderVideo() {
+	const [navbar, setNavbar] = useState(false);
 
-  const [navbar, setNavbar] = useState(false);
+	const showNavBg = () => {
+		if (window.scrollY >= 576) {
+			setNavbar(true);
+		} else {
+			setNavbar(false);
+		}
+	};
 
-  const showNavBg = () => {
-    if (window.scrollY >= 576) {
-      setNavbar(true);
-    } else {
-      setNavbar(false);
-    }
-  };
+	window.addEventListener("scroll", showNavBg);
 
-  window.addEventListener('scroll', showNavBg);
-
-  const [isNavOpen, setIsNavOpen] = useState(false);
+	const [isNavOpen, setIsNavOpen] = useState(false);
 
   return (
     <header className='relative text-white p-6 top-0 z-1 -mt-24'>
