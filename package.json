@@ -1,6 +1,7 @@
 {
   "name": "cmjsh-agency",
   "version": "0.1.0",
+  "homepage": "https://jessicamlee.github.io/CMJSH-agency",
   "description": "CMJSH Agency is a fictional, digital marketing agency focused on designing, developing, and marketing accessible business solutions in the forms of responsive website interfaces.",
   "main": "index.js",
   "dependencies": {
@@ -15,6 +16,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -50,6 +53,7 @@
     "autoprefixer": "^10.4.13",
     "flowbite": "^1.5.4",
     "flowbite-react": "^0.3.5",
+    "gh-pages": "^4.0.0",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "postcss": "^8.4.19",
