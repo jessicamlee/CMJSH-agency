@@ -12,7 +12,7 @@ export default function Contact() {
             <textarea className='border-b w-full mt-7 border-0 border-inherit' type='text' placeholder='Your Message' required></textarea>
             <button className='bg-darkBlue text-white text-sm rounded-full w-fit flex gap-3 items-center py-1 pl-3 pr-1 mt-6 mx-auto' type='submit'>
                 <span className='pl-3'>Send</span>
-                <img className='bg-white rounded-full h-7 w-7' src='/assets/images/sendarrow.svg' alt='arrow'></img>
+                <img className='bg-white rounded-full h-7 w-7' src='/assets/images/homepage/sendarrow.svg' alt='arrow'></img>
             </button>
         </form>
         <div id='validate' className='absolute text-green-600 mx-auto bottom-2 left-0 right-0 w-fit hidden'>Message successfully sent!</div>
