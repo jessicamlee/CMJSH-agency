@@ -48,6 +48,15 @@ module.exports = {
         bold: '700',
       },
 
+      lineHeight: {
+        '0': '0em',
+      },
+
+      margin: {
+        '0.3':'0.3em',
+        '0.35': '0.35em',
+      },
+
       width: {
         '22pct': '22%',
         '28pct': '28%',
