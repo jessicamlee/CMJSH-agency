@@ -12,7 +12,7 @@ export default function Footer() {
                         <p className="font-bold text-2xl md:text-4xl text-lightBlue leading-0 mt-0.3 lg:mt-0.35">CMJSH</p>
                     </div>
                     <Fade cascade bottom>
-                    <ul className="flex justify-center items-center gap-x-2 md:absolute md:top-32 md:right-0 md:pr-16 lg:pr-32 xl:pr-36">
+                    <ul className="flex justify-center items-center gap-x-2 md:absolute md:top-36 md:right-0 md:pr-16 lg:pr-32 xl:pr-36">
                         <li>
                             <a href="#" target="_blank" title="Link to CMJSH's Twitter">
                                 <svg className='w-6 h-6 fill-none' viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
