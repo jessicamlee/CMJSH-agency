@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/CMJSH-agency/static/css/main.bfc51628.css",
+    "main.js": "/CMJSH-agency/static/js/main.51186fd4.js",
+    "static/media/videoBg.mp4": "/CMJSH-agency/static/media/videoBg.c2292bb6284334ea36f0.mp4",
+    "static/media/cmjshfull.png": "/CMJSH-agency/static/media/cmjshfull.2851cbecfc62cb660aff.png",
+    "static/media/1440ProfileLight.png": "/CMJSH-agency/static/media/1440ProfileLight.7610e627bf2de93f40e8.png",
+    "static/media/1440HomePageGradient.png": "/CMJSH-agency/static/media/1440HomePageGradient.f2c7727f893a1717a918.png",
+    "static/media/1024ProfileLight.png": "/CMJSH-agency/static/media/1024ProfileLight.679194bf9bcec601e9a2.png",
+    "static/media/768HomePageGradient.png": "/CMJSH-agency/static/media/768HomePageGradient.4ac03652b0f43ca4fb51.png",
+    "static/media/CMJSH_footer.png": "/CMJSH-agency/static/media/CMJSH_footer.161c6de7ed462a1189a7.png",
+    "static/media/1024HomePageGradient.png": "/CMJSH-agency/static/media/1024HomePageGradient.c6754b917aadc34a44d1.png",
+    "static/media/1440ProfileDark.png": "/CMJSH-agency/static/media/1440ProfileDark.2f62fe3f578f3a229890.png",
+    "static/media/1024ProfileDark.png": "/CMJSH-agency/static/media/1024ProfileDark.e0c43fe88c5c04c2c297.png",
+    "static/media/768ProfileLight.png": "/CMJSH-agency/static/media/768ProfileLight.83ec71c326eed40b8507.png",
+    "static/media/768ProfileDark.png": "/CMJSH-agency/static/media/768ProfileDark.bd87a6bffeb58e8128d8.png",
+    "static/media/burger.svg": "/CMJSH-agency/static/media/burger.562009bba33275464692d1bc8cb15dbb.svg",
+    "index.html": "/CMJSH-agency/index.html",
+    "main.bfc51628.css.map": "/CMJSH-agency/static/css/main.bfc51628.css.map",
+    "main.51186fd4.js.map": "/CMJSH-agency/static/js/main.51186fd4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfc51628.css",
+    "static/js/main.51186fd4.js"
+  ]
+}
