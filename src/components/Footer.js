@@ -13,8 +13,10 @@ export default function Footer() {
 							src={Logo}
 							alt="CMJSH Agency Logo"
 						/>
-						<p className="font-bold text-2xl md:text-4xl text-lightBlue leading-0 mt-0.3 lg:mt-0.35">
-							CMJSH
+						<p className="font-bold text-2xl md:text-4xl text-lightBlue leading-0 mt-0.3 lg:mt-0.35 transition duration-200 hover:text-white">
+							<a href="#" title="Go to Home page">
+								CMJSH
+							</a>
 						</p>
 					</div>
 					<Fade cascade bottom>
@@ -26,7 +28,7 @@ export default function Footer() {
 									title="Link to CMJSH's Twitter"
 								>
 									<svg
-										className="w-6 h-6 fill-none"
+										className="w-6 h-6 fill-lightBlue transition duration-200 hover:fill-roleLight"
 										viewBox="0 0 24 24"
 										xmlns="http://www.w3.org/2000/svg"
 									>
@@ -34,7 +36,6 @@ export default function Footer() {
 											cx="12"
 											cy="12"
 											r="12"
-											className="fill-lightBlue hover:fill-roleLight"
 											fillOpacity="2"
 										/>
 										<path
@@ -51,7 +52,7 @@ export default function Footer() {
 									title="Link to CMJSH's LinkedIn page"
 								>
 									<svg
-										className="w-6 h-6"
+										className="w-6 h-6 fill-lightBlue transition duration-200 hover:fill-roleLight"
 										viewBox="0 0 24 24"
 										xmlns="http://www.w3.org/2000/svg"
 									>
@@ -59,7 +60,6 @@ export default function Footer() {
 											cx="12"
 											cy="12"
 											r="12"
-											className="fill-lightBlue hover:fill-roleLight "
 											fillOpacity="2"
 										/>
 										<path
@@ -76,7 +76,7 @@ export default function Footer() {
 									title="Link to CMJSH's Facebook page"
 								>
 									<svg
-										className="w-6 h-6"
+										className="w-6 h-6 fill-lightBlue transition duration-200 hover:fill-roleLight"
 										viewBox="0 0 24 24"
 										xmlns="http://www.w3.org/2000/svg"
 									>
@@ -84,7 +84,6 @@ export default function Footer() {
 											cx="12"
 											cy="12"
 											r="12"
-											className="fill-lightBlue hover:fill-roleLight"
 											fillOpacity="2"
 										/>
 										<path
@@ -101,7 +100,7 @@ export default function Footer() {
 									title="Link to email CMJSH"
 								>
 									<svg
-										className="w-6 h-6 fill-none"
+										className="w-6 h-6 fill-lightBlue transition duration-200 hover:fill-roleLight"
 										viewBox="0 0 24 24"
 										xmlns="http://www.w3.org/2000/svg"
 									>
@@ -109,7 +108,6 @@ export default function Footer() {
 											cx="12"
 											cy="12"
 											r="12"
-											className="fill-lightBlue hover:fill-roleLight"
 											fillOpacity="2"
 										/>
 										<path

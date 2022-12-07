@@ -52,10 +52,10 @@ export default function HeaderPlain() {
         {/* Desktop Menu */}
         <Fade cascade>
           <ul className='nav-items-desktop'>
-            <li><a className="hover:text-sky-300" href='/' title='Home'>Home</a></li>
-            <li><a className="hover:text-sky-300" href='/' title='About Us'>About</a></li>
-            <li><a className="hover:text-sky-300" href='/' title='Our Work'>Work</a></li>
-            <li><a className="hover:text-sky-300" href='/' title='Contact Us'>Contact</a></li>
+            <li><a className="transition duration-200 hover:text-sky-300 hover:underline" href='/' title='Home'>Home</a></li>
+            <li><a className="transition duration-200 hover:text-sky-300 hover:underline" href='/' title='About Us'>About</a></li>
+            <li><a className="transition duration-200 hover:text-sky-300 hover:underline" href='/' title='Our Work'>Work</a></li>
+            <li><a className="transition duration-200 hover:text-sky-300 hover:underline" href='/' title='Contact Us'>Contact</a></li>
           </ul>
         </Fade>
       </nav>

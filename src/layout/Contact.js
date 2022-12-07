@@ -33,10 +33,10 @@ export default function Contact() {
 							required
 						></textarea>
 						<button
-							className="bg-darkBlue text-white hover:bg-sky-300 text-sm rounded-full w-fit flex gap-3 items-center py-1 pl-3 pr-1 mt-6 mx-auto"
+							className="bg-darkBlue text-white transition duration-200 hover:bg-sky-300 text-sm rounded-full w-fit flex gap-3 items-center py-1 pl-3 pr-1 mt-6 mx-auto"
 							type="submit"
 						>
-							<span className="pl-3">Send</span>
+							<span className="pl-3 mt-1">Send</span>
 							<img
 								className="bg-white rounded-full h-7 w-7"
 								src={SendArrow}

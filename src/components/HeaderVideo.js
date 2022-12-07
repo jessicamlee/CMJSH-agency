@@ -21,7 +21,7 @@ export default function HeaderVideo() {
 		<header className="relative text-white p-6 top-0 z-1 -mt-24">
 			<nav className={navbar ? "navbar active" : "navbar"}>
 				<Fade top>
-					<h2 className="font-Overpass font-bold text-xl mt-1 lg:text-2xl xl:text-3xl">
+					<h2 className="font-Overpass font-bold text-xl mt-1 lg:text-2xl xl:text-3xl transition duration-200 hover:text-sky-300">
 						<a href="/" title="Go to Home page">
 							CMJSH
 						</a>
@@ -59,7 +59,7 @@ export default function HeaderVideo() {
 							<ul className="nav-items-mobile">
 								<li>
 									<a
-										className="hover:text-sky-300"
+										className="transition duration-200 hover:text-sky-300"
 										href="/"
 										title="Home"
 									>
@@ -68,7 +68,7 @@ export default function HeaderVideo() {
 								</li>
 								<li>
 									<a
-										className="hover:text-sky-300"
+										className="transition duration-200 hover:text-sky-300"
 										href="/"
 										title="About Us"
 									>
@@ -77,7 +77,7 @@ export default function HeaderVideo() {
 								</li>
 								<li>
 									<a
-										className="hover:text-sky-300"
+										className="transition duration-200 hover:text-sky-300"
 										href="/"
 										title="Our Work"
 									>
@@ -86,7 +86,7 @@ export default function HeaderVideo() {
 								</li>
 								<li>
 									<a
-										className="hover:text-sky-300"
+										className="transition duration-200 hover:text-sky-300"
 										href="/"
 										title="Contact Us"
 									>
@@ -103,7 +103,7 @@ export default function HeaderVideo() {
 					<ul className="nav-items-desktop">
 						<li>
 							<a
-								className="hover:text-sky-300"
+								className="transition duration-200 hover:text-sky-300 hover:underline"
 								href="/"
 								title="Home"
 							>
@@ -112,7 +112,7 @@ export default function HeaderVideo() {
 						</li>
 						<li>
 							<a
-								className="hover:text-sky-300"
+								className="transition duration-200 hover:text-sky-300 hover:underline"
 								href="/"
 								title="About Us"
 							>
@@ -121,7 +121,7 @@ export default function HeaderVideo() {
 						</li>
 						<li>
 							<a
-								className="hover:text-sky-300"
+								className="transition duration-200 hover:text-sky-300 hover:underline"
 								href="/"
 								title="Our Work"
 							>
@@ -130,7 +130,7 @@ export default function HeaderVideo() {
 						</li>
 						<li>
 							<a
-								className="hover:text-sky-300"
+								className="transition duration-200 hover:text-sky-300 hover:underline"
 								href="/"
 								title="Contact Us"
 							>

@@ -23,7 +23,7 @@ export default function Intro() {
 						happen in creating brand strategies, advertising and
 						technology services.
 					</p>
-					<button className="btn-sm lg:ml-20 hover:bg-sky-300">
+					<button className="btn-sm lg:ml-20 transition duration-200 hover:bg-sky-300">
 						View Our Work
 					</button>
 				</div>
