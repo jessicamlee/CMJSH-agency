@@ -10,6 +10,7 @@ export default function ProfileCard({
     projectDesc,
     projectImagePath,
     projectImageName,
+    projectPath,
     portfolioSite,
     portfolioName,
     emailAddress,
@@ -74,7 +75,9 @@ export default function ProfileCard({
                     <div>
                         <h3 className="text-darkBlue text-sm lg:text-2xl font-base leading-5 dark:text-white">{projectName}</h3>
                         <p className="para-profiles mt-2">{projectDesc}</p>
-                        <button className='btn-profiles' title="View Project">View Work</button>
+                        <a href={projectPath} target="_blank" title={projectName}>
+                            <button className='btn-profiles' title="View Project">View Work</button>
+                        </a>
                     </div>
                 </div>
             </div>
