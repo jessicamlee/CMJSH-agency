@@ -1,5 +1,6 @@
 # CMJSH Agency
-_💡 Note: This Project is in Progress!_
+> _🚀 We just launched the first iteration of our project! Check it out:_ \
+ https://jessicamlee.github.io/CMJSH-agency/
 
 CMJSH Agency is a fictional, digital marketing agency focused on designing, developing, and marketing accessible business solutions in the forms of responsive website interfaces.
 
@@ -28,13 +29,13 @@ When we're ready to build and test the project for issues or bugs, the following
 * `npm test` — Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ## ⚒ **Tools & Languages**
-* **Design:** Figma
-* **Development:** React.js, TailwindCSS, Flowbite, Babel, Gulp.js
+* **Design:** Pen-and-paper, Figma
+* **Development:** React, TailwindCSS, Flowbite, Babel, Gulp.js
 * **QA Testing:** BrowserStack
 
 ## 🧠 **Our Team**
-* [**Malcolm Tan**](https://malcolm-tan.com/)  —   Quality Assurance Lead
-* [**Cindy Shin**](https://cinshin.com)  —   UX/UI Designer
-* [**Hannah Smith**](https://portfolio/hlsmith.online)  —   Graphic Designer
-* [**Samantha Tan**](https://samanthatan.ca/)  —   Developer
-* [**Jessica Lee**](https://jessicamlee.dev/)  —   Developer
+* [**Malcolm Tan**](https://malcolm-tan.com/)  —  Quality Assurance Lead
+* [**Cindy Shin**](https://cinshin.com)  —  UX/UI Designer
+* [**Hannah Smith**](https://portfolio/hlsmith.online)  —  Graphic Designer
+* [**Samantha Tan**](https://samanthatan.ca/)  —  Developer
+* [**Jessica Lee**](https://jessicamlee.dev/)  —  Developer
