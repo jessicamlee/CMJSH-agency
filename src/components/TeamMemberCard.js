@@ -36,7 +36,7 @@ export default function TeamMemberCard({
 					{paragraph}
 				</p>
 				<button
-					className="btn-full hover:bg-sky-300"
+					className="btn-full transition duration-200 hover:bg-sky-300 "
 					title="Go to Profile page"
 					onClick={navigateToProfile}
 				>
