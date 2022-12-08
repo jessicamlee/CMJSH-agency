@@ -36,6 +36,6 @@ When we're ready to build and test the project for issues or bugs, the following
 ## 🧠 **Our Team**
 * [**Malcolm Tan**](https://malcolm-tan.com/)  —  Quality Assurance Lead
 * [**Cindy Shin**](https://cinshin.com)  —  UX/UI Designer
-* [**Hannah Smith**](https://portfolio/hlsmith.online)  —  Graphic Designer
+* [**Hannah Smith**](https://portfolio.hlsmith.online/)  —  Graphic Designer
 * [**Samantha Tan**](https://samanthatan.ca/)  —  Developer
 * [**Jessica Lee**](https://jessicamlee.dev/)  —  Developer
