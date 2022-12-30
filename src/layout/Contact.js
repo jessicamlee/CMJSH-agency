@@ -5,7 +5,7 @@ import SendArrow from "../assets/images/homepage/sendarrow.svg";
 export default function Contact() {
 	return (
 		<Fade>
-			<div className="grid grid-cols-1 px-6 mb-6 text-sm mt-40 md:mb-12 lg:text-base lg:px-28 xl:px-44 relative xl:max-w-screen-xl mx-auto">
+			<div id="contact-us" className="grid grid-cols-1 px-6 mb-6 text-sm mt-40 md:mb-12 lg:text-base lg:px-28 xl:px-44 relative xl:max-w-screen-xl mx-auto">
 				<p className="font-light mb-1 text-sm">
 					We're always glad to help
 				</p>
