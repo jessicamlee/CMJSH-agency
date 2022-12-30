@@ -19,7 +19,7 @@ export default function TeamMemberCard({
 		<Fade cascade>
 			<li
 				key={id}
-				className="w-47pct md:w-28pct xl:w-22pct xl:max-w-22pct"
+				className="375wide:w-46pct md:w-28pct xl:w-22pct xl:max-w-22pct"
 			>
 				<img
 					className="rounded w-full"

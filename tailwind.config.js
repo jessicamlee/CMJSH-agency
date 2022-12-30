@@ -7,6 +7,7 @@ module.exports = {
 	darkMode: "class",
 	theme: {
 		screens: {
+			"375wide": "375px",
 			"457wide": "457px",
 			sm: "640px",
 			md: "768px",
@@ -68,7 +69,7 @@ module.exports = {
 			width: {
 				"22pct": "22%",
 				"28pct": "28%",
-				"47pct": "47%",
+				"46pct": "46%",
 			},
 
 			maxWidth: {
