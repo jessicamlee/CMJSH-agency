@@ -9,7 +9,11 @@ export default function HeaderPlain() {
     <header className='relative text-white p-6 top-0 z-1 -mt-24 lg:px-10'>
       <nav className='fixed bg-darkBlue top-0 left-0 right-0 p-6 lg:px-10 xl:px-20 flex justify-between items-center'>
         <Fade top>
-          <h2 className='font-Overpass font-bold text-xl mt-1 lg:text-2xl xl:text-3xl'><a href="/" title="Go to Home page">CMJSH</a></h2>
+          <h2 className='font-Overpass font-bold text-xl mt-1 lg:text-2xl xl:text-3xl'>
+            <a href="https://jessicamlee.github.io/CMJSH-agency/" title="Go to Home page">
+              CMJSH
+            </a>
+          </h2>
         </Fade>
         {/* Mobile Menu */}
         <div className="flex lg:hidden">
@@ -40,10 +44,10 @@ export default function HeaderPlain() {
             </div>
             <Fade cascade>
               <ul className='nav-items-mobile'>
-                <li><a href='/' title='Home'>Home</a></li>
-                <li><a href='/' title='About Us'>About</a></li>
-                <li><a href='/' title='Our Work'>Work</a></li>
-                <li><a href='/' title='Contact Us'>Contact</a></li>
+                <li><a href='https://jessicamlee.github.io/CMJSH-agency/' title='Home'>Home</a></li>
+                <li><a href='https://jessicamlee.github.io/CMJSH-agency/ProfilePage' title='About Us'>About</a></li>
+                <li><a href='https://jessicamlee.github.io/CMJSH-agency/ProfilePage' title='Our Work'>Work</a></li>
+                <li><a href='https://jessicamlee.github.io/CMJSH-agency/#contact-us' title='Contact Us'>Contact</a></li>
               </ul>
             </Fade>
           </div>
@@ -52,10 +56,10 @@ export default function HeaderPlain() {
         {/* Desktop Menu */}
         <Fade cascade>
           <ul className='nav-items-desktop'>
-            <li><a className="transition duration-200 hover:text-sky-300 hover:underline" href='/' title='Home'>Home</a></li>
-            <li><a className="transition duration-200 hover:text-sky-300 hover:underline" href='/' title='About Us'>About</a></li>
-            <li><a className="transition duration-200 hover:text-sky-300 hover:underline" href='/' title='Our Work'>Work</a></li>
-            <li><a className="transition duration-200 hover:text-sky-300 hover:underline" href='/' title='Contact Us'>Contact</a></li>
+            <li><a className="transition duration-200 hover:text-sky-300 hover:underline" href='https://jessicamlee.github.io/CMJSH-agency/' title='Home'>Home</a></li>
+            <li><a className="transition duration-200 hover:text-sky-300 hover:underline" href='https://jessicamlee.github.io/CMJSH-agency/ProfilePage' title='About Us'>About</a></li>
+            <li><a className="transition duration-200 hover:text-sky-300 hover:underline" href='https://jessicamlee.github.io/CMJSH-agency/ProfilePage' title='Our Work'>Work</a></li>
+            <li><a className="transition duration-200 hover:text-sky-300 hover:underline" href='https://jessicamlee.github.io/CMJSH-agency/#contact-us' title='Contact Us'>Contact</a></li>
           </ul>
         </Fade>
       </nav>
