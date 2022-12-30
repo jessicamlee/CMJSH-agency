@@ -69,7 +69,7 @@ export default function HeaderVideo() {
 								<li>
 									<a
 										className="transition duration-200 hover:text-sky-300"
-										href="https://jessicamlee.github.io/CMJSH-agency/ProfilePage"
+										href="https://jessicamlee.github.io/CMJSH-agency/"
 										title="About Us"
 									>
 										About
@@ -78,7 +78,7 @@ export default function HeaderVideo() {
 								<li>
 									<a
 										className="transition duration-200 hover:text-sky-300"
-										href="https://jessicamlee.github.io/CMJSH-agency/ProfilePage"
+										href="https://jessicamlee.github.io/CMJSH-agency/"
 										title="Our Work"
 									>
 										Work
@@ -113,7 +113,7 @@ export default function HeaderVideo() {
 						<li>
 							<a
 								className="transition duration-200 hover:text-sky-300 hover:underline"
-								href="https://jessicamlee.github.io/CMJSH-agency/ProfilePage"
+								href="https://jessicamlee.github.io/CMJSH-agency/"
 								title="About Us"
 							>
 								About
@@ -122,7 +122,7 @@ export default function HeaderVideo() {
 						<li>
 							<a
 								className="transition duration-200 hover:text-sky-300 hover:underline"
-								href="https://jessicamlee.github.io/CMJSH-agency/ProfilePage"
+								href="https://jessicamlee.github.io/CMJSH-agency/"
 								title="Our Work"
 							>
 								Work
