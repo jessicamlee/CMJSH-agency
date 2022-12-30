@@ -45,8 +45,8 @@ export default function HeaderPlain() {
             <Fade cascade>
               <ul className='nav-items-mobile'>
                 <li><a href='https://jessicamlee.github.io/CMJSH-agency/' title='Home'>Home</a></li>
-                <li><a href='https://jessicamlee.github.io/CMJSH-agency/ProfilePage' title='About Us'>About</a></li>
-                <li><a href='https://jessicamlee.github.io/CMJSH-agency/ProfilePage' title='Our Work'>Work</a></li>
+                <li><a href='https://jessicamlee.github.io/CMJSH-agency/' title='About Us'>About</a></li>
+                <li><a href='https://jessicamlee.github.io/CMJSH-agency/' title='Our Work'>Work</a></li>
                 <li><a href='https://jessicamlee.github.io/CMJSH-agency/#contact-us' title='Contact Us'>Contact</a></li>
               </ul>
             </Fade>
@@ -57,8 +57,8 @@ export default function HeaderPlain() {
         <Fade cascade>
           <ul className='nav-items-desktop'>
             <li><a className="transition duration-200 hover:text-sky-300 hover:underline" href='https://jessicamlee.github.io/CMJSH-agency/' title='Home'>Home</a></li>
-            <li><a className="transition duration-200 hover:text-sky-300 hover:underline" href='https://jessicamlee.github.io/CMJSH-agency/ProfilePage' title='About Us'>About</a></li>
-            <li><a className="transition duration-200 hover:text-sky-300 hover:underline" href='https://jessicamlee.github.io/CMJSH-agency/ProfilePage' title='Our Work'>Work</a></li>
+            <li><a className="transition duration-200 hover:text-sky-300 hover:underline" href='https://jessicamlee.github.io/CMJSH-agency/' title='About Us'>About</a></li>
+            <li><a className="transition duration-200 hover:text-sky-300 hover:underline" href='https://jessicamlee.github.io/CMJSH-agency/' title='Our Work'>Work</a></li>
             <li><a className="transition duration-200 hover:text-sky-300 hover:underline" href='https://jessicamlee.github.io/CMJSH-agency/#contact-us' title='Contact Us'>Contact</a></li>
           </ul>
         </Fade>
