@@ -1,14 +1,14 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import ProfilePage from './pages/ProfilePage';
+import Home from './pages/Home';
+import OurTeam from './pages/OurTeam';
 
 function App() {
 	return (
 		<>
 			<Router basename={process.env.PUBLIC_URL}>
 				<Routes>
-					<Route path="/" element={<HomePage />} />
-					<Route path="/ProfilePage" element={<ProfilePage />} />
+					<Route path="/" element={<Home />} />
+					<Route path="/OurTeam" element={<OurTeam />} />
 				</Routes>
 			</Router>
 		</>
