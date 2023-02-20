@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CMJSH-agency/static/css/main.cc508931.css",
-    "main.js": "/CMJSH-agency/static/js/main.6a9e1e52.js",
+    "main.css": "/CMJSH-agency/static/css/main.dffa46cc.css",
+    "main.js": "/CMJSH-agency/static/js/main.72d8c730.js",
     "static/media/videoBg.mp4": "/CMJSH-agency/static/media/videoBg.c2292bb6284334ea36f0.mp4",
     "static/media/cmjshfull.png": "/CMJSH-agency/static/media/cmjshfull.2851cbecfc62cb660aff.png",
     "static/media/1440ProfileLight.png": "/CMJSH-agency/static/media/1440ProfileLight.7610e627bf2de93f40e8.png",
@@ -17,11 +17,11 @@
     "static/media/burger.svg": "/CMJSH-agency/static/media/burger.562009bba33275464692d1bc8cb15dbb.svg",
     "index.html": "/CMJSH-agency/index.html",
     "static/media/sendarrow.svg": "/CMJSH-agency/static/media/sendarrow.0f115910d0be463804e1d8e021785d6c.svg",
-    "main.cc508931.css.map": "/CMJSH-agency/static/css/main.cc508931.css.map",
-    "main.6a9e1e52.js.map": "/CMJSH-agency/static/js/main.6a9e1e52.js.map"
+    "main.dffa46cc.css.map": "/CMJSH-agency/static/css/main.dffa46cc.css.map",
+    "main.72d8c730.js.map": "/CMJSH-agency/static/js/main.72d8c730.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc508931.css",
-    "static/js/main.6a9e1e52.js"
+    "static/css/main.dffa46cc.css",
+    "static/js/main.72d8c730.js"
   ]
 }
